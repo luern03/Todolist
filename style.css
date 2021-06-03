@@ -1,0 +1,129 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #b4aee8;
+    color: #ffe3fe;
+}
+/* .text-warning{
+  color:#fccf05;
+} */
+/* .text-danger {
+  color:red;
+} */
+
+.container {
+    margin: 70px auto;
+    width: 300px;
+    height: 500px;
+    background: #440a67;
+    text-align: center;
+    border-radius: 30px;
+    transition: 1s;
+    box-shadow: 5px 10px 8px #b4aee8;
+}
+
+#errorText {
+    font-size: 13px;
+    color: #93329e;
+    width: max-content;
+    margin: 0 auto;
+}
+
+#headerText {
+    margin-top: 189px;
+    padding-top: 20px;
+    color: #ffe3fe;
+    font-weight: bold;
+    font-family: sans-serif;    
+}
+
+#input {
+    background: #440a67;
+    border-top: 0;
+    border-bottom: 0;
+    border-left: 5px solid #ffe3fe;
+    border-right: 0;
+    padding: 5px;
+    color: #ffe3fe;
+}
+input#input:focus {
+    border-left: 5px solid #ffe3fe;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 0;
+    color: #ffe3fe;
+    outline: none;
+}
+#input::placeholder {
+    color: #ffe3fe;
+}
+
+.btn {
+    padding: 10px 15px;
+    border: 2px solid #000;
+    text-transform: unset;
+    font-weight: bold;
+    transition: 1s;
+}
+
+.btn-add {
+    border-radius: 50%;
+    color: #93329e;
+    background-color: #fff;
+    border: 2px solid #ffe3fe;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btn-add:hover {
+    box-shadow: 7px 8px 16px #b4aee8;
+}
+.btn-add:active{
+    background-color: red;
+}
+i{
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+#list {
+    background-color: #ffffff;
+    height: 360px;
+    border-radius: 30px;
+    overflow: scroll;
+    padding: 20px 0 0 0;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+.list-item {
+    padding: 10px 15px;
+    margin:0 20px;
+    height: 40px;
+    color: #440a67;
+    list-style: none;
+    clear: both;
+    transition: 1s ease-in-out;
+}
+
+.list-item:hover {
+    border-radius: 10px;
+     background:#b4aee8(255,255,255, 0.3);
+}
+
+#listText {
+    margin-top: 8px;
+    float: left;
+    text-align: left;
+}
+#dateText {
+    font-size: 10px;
+    margin: 0;
+    color: #bbb;
+    text-align: left;
+}
+
+#actionBtn{
+    margin-top: 10px;
+    float: right;
+}
