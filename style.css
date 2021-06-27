@@ -1,21 +1,21 @@
 body{
     padding: 0;
     margin: 0;
-    background-color: #b4aee8;
-    color: #ffe3fe;
+    background-color: #250101;
+    color: #eba6b5;
 }
-/* .text-warning{
+ .text-warning{
   color:#fccf05;
-} */
-/* .text-danger {
+} 
+ .text-danger {
   color:red;
-} */
+} 
 
 .container {
     margin: 70px auto;
     width: 300px;
     height: 500px;
-    background: #440a67;
+    background: #4d1919;
     text-align: center;
     border-radius: 30px;
     transition: 1s;
@@ -24,7 +24,7 @@ body{
 
 #errorText {
     font-size: 13px;
-    color: #93329e;
+    color: #fcc5c5;
     width: max-content;
     margin: 0 auto;
 }
@@ -32,13 +32,13 @@ body{
 #headerText {
     margin-top: 189px;
     padding-top: 20px;
-    color: #ffe3fe;
+    color: #ffe6e3;
     font-weight: bold;
     font-family: sans-serif;    
 }
 
 #input {
-    background: #440a67;
+    background: #380101;
     border-top: 0;
     border-bottom: 0;
     border-left: 5px solid #ffe3fe;
@@ -51,7 +51,7 @@ input#input:focus {
     border-right: 0;
     border-top: 0;
     border-bottom: 0;
-    color: #ffe3fe;
+    color: #e5c6be;
     outline: none;
 }
 #input::placeholder {
@@ -68,9 +68,9 @@ input#input:focus {
 
 .btn-add {
     border-radius: 50%;
-    color: #93329e;
+    color: #92646e;
     background-color: #fff;
-    border: 2px solid #ffe3fe;
+    border: 2px solid #ffe3e8;
     font-size: 20px;
     cursor: pointer;
 }
@@ -100,7 +100,7 @@ i{
     padding: 10px 15px;
     margin:0 20px;
     height: 40px;
-    color: #440a67;
+    color: #803224;
     list-style: none;
     clear: both;
     transition: 1s ease-in-out;
@@ -108,7 +108,7 @@ i{
 
 .list-item:hover {
     border-radius: 10px;
-     background:#b4aee8(255,255,255, 0.3);
+     background:#e6ccae(255,255,255, 0.3);
 }
 
 #listText {
